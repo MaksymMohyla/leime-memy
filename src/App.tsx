@@ -1,15 +1,15 @@
 import { Route, Routes } from 'react-router-dom';
 
-import IndexPage from '@/pages/index';
-import Table from '@/pages/table';
-import List from '@/pages/list';
+import HomePage from '@/pages/home';
+import TablePage from '@/pages/table';
+import ListPage from '@/pages/list';
 
 function App() {
   return (
     <Routes>
-      <Route element={<IndexPage />} path="/" />
-      <Route element={<Table />} path="/table" />
-      <Route element={<List />} path="/list" />
+      <Route element={<HomePage />} path="/" />
+      <Route element={<TablePage />} path="/table" />
+      <Route element={<ListPage />} path="/list" />
     </Routes>
   );
 }
