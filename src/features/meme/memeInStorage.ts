@@ -11,7 +11,7 @@ const initialMemes: Meme[] = [
   },
   {
     id: 2,
-    title: 'Task manager death',
+    title: 'Task manager shutdown',
     imgURL:
       'https://preview.redd.it/memes-from-5-plus-years-ago-deleting-off-my-phone-figured-i-v0-8ep2gk0b29oe1.jpg?width=640&crop=smart&auto=webp&s=69c19bae6bc2e220eee11e480f8537340b35fe59',
     likes: 50,

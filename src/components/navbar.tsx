@@ -31,7 +31,7 @@ export const Navbar = () => {
           </Link>
         </NavbarBrand>
 
-        <div className="flex gap-8 sm:gap-10 lg:gap-16 justify-center mx-auto h-full">
+        <div className="flex gap-4 sm:gap-10 lg:gap-16 justify-center mx-auto h-full">
           {['Table', 'List'].map((item) => (
             <NavbarItem key={item} className="flex align-center">
               <Link

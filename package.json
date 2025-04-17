@@ -10,7 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@heroui/button": "2.2.17",
+    "@heroui/button": "^2.2.17",
     "@heroui/code": "2.2.12",
     "@heroui/dropdown": "2.3.17",
     "@heroui/input": "2.4.17",
@@ -20,6 +20,7 @@
     "@heroui/snippet": "2.2.18",
     "@heroui/switch": "2.2.15",
     "@heroui/system": "2.4.13",
+    "@heroui/table": "^2.2.16",
     "@heroui/theme": "2.4.13",
     "@heroui/use-theme": "2.1.6",
     "@react-aria/visually-hidden": "3.8.21",
