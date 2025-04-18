@@ -11,14 +11,14 @@ const initialMemes: Meme[] = [
   },
   {
     id: 2,
-    title: 'Task manager shutdown',
+    title: 'What you gonna do then?',
     imgURL:
       'https://preview.redd.it/memes-from-5-plus-years-ago-deleting-off-my-phone-figured-i-v0-8ep2gk0b29oe1.jpg?width=640&crop=smart&auto=webp&s=69c19bae6bc2e220eee11e480f8537340b35fe59',
     likes: 50,
   },
   {
     id: 3,
-    title: 'DB in Excel',
+    title: 'Huh, classic',
     imgURL:
       'https://preview.redd.it/memes-from-5-plus-years-ago-deleting-off-my-phone-figured-i-v0-dm6vbt2b29oe1.png?width=1080&crop=smart&auto=webp&s=b16c234a0224c51ed7332b5a0e5ff0193d661ef5',
     likes: 50,

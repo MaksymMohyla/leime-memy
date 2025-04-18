@@ -6,11 +6,11 @@ import {
   NavbarContent,
   NavbarItem,
 } from '@heroui/navbar';
-import { link as linkStyles } from '@heroui/theme';
 import clsx from 'clsx';
 
 import { ThemeSwitch } from '@/components/theme-switch';
 import { Logo } from '@/components/icons';
+import { NavLink } from 'react-router-dom';
 
 export const Navbar = () => {
   return (
@@ -34,15 +34,17 @@ export const Navbar = () => {
         <div className="flex gap-4 sm:gap-10 lg:gap-16 justify-center mx-auto h-full">
           {['Table', 'List'].map((item) => (
             <NavbarItem key={item} className="flex align-center">
-              <Link
-                className={clsx(
-                  linkStyles({ color: 'foreground' }),
-                  'data-[active=true]:text-primary data-[active=true]:font-medium data-[active=true]:bg-gray-200 px-4 rounded'
-                )}
-                href={`/${item.toLowerCase()}`}
+              <NavLink
+                className={({ isActive }) =>
+                  clsx(
+                    'px-4 rounded flex items-center',
+                    isActive && 'bg-gray-400 italic'
+                  )
+                }
+                to={`/${item.toLowerCase()}`}
               >
                 {item}
-              </Link>
+              </NavLink>
             </NavbarItem>
           ))}
         </div>

@@ -17,7 +17,7 @@ export default function ListPage() {
               <CardBody className="overflow-visible p-0">
                 <Image
                   alt={item.title}
-                  className="w-full object-contain h-[300px]"
+                  className="w-full object-contain h-[260px]"
                   radius="lg"
                   shadow="sm"
                   src={item.imgURL}
