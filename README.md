@@ -1,50 +1,47 @@
-# Vite & HeroUI Template
+## Author
 
-This is a template for creating applications using Vite and HeroUI (v2).
+- **Maksym Mohyla**
+  - [LinkedIn](https://www.linkedin.com/in/maksym-mohyla-781377351/)
+  - [GitHub](https://github.com/MaksymMohyla)
+  - [Telegram](https://t.me/MaxVinnytsky)
 
-[Try it on CodeSandbox](https://githubbox.com/frontio-ai/vite-template)
+## How to Run Locally
 
-## Technologies Used
+Follow these steps to fork and run the project locally:
 
-- [Vite](https://vitejs.dev/guide/)
-- [HeroUI](https://heroui.com)
-- [Tailwind CSS](https://tailwindcss.com)
-- [Tailwind Variants](https://tailwind-variants.org)
-- [TypeScript](https://www.typescriptlang.org)
-- [Framer Motion](https://www.framer.com/motion)
+1. **Fork the Repository**  
+   Go to the [GitHub repository](https://github.com/MaksymMohyla/leime-memy) and click the "Fork" button to create your own copy of the project.
 
-## How to Use
+2. **Clone the Repository**  
+   Clone the forked repository to your local machine:
 
-To clone the project, run the following command:
+   ```bash
+   git clone https://github.com/your-username/leime-memy.git
+   ```
 
-```bash
-git clone https://github.com/frontio-ai/vite-template.git
-```
+3. **Navigate to the Project Directory**
 
-### Install dependencies
+   ```bash
+   cd leime-memy
+   ```
 
-You can use one of them `npm`, `yarn`, `pnpm`, `bun`, Example using `npm`:
+4. **Install Dependencies**  
+   Make sure you have Node.js installed, then run:
 
-```bash
-npm install
-```
+   ```bash
+   npm install
+   ```
 
-### Run the development server
+5. **Run the Project**  
+   Start the development server:
 
-```bash
-npm run dev
-```
+   ```bash
+   npm run dev
+   ```
 
-### Setup pnpm (optional)
+6. **Access the Application**  
+   Open your browser and navigate to `http://localhost:5173`.
 
-If you are using `pnpm`, you need to add the following code to your `.npmrc` file:
+## DEMO
 
-```bash
-public-hoist-pattern[]=*@heroui/*
-```
-
-After modifying the `.npmrc` file, you need to run `pnpm install` again to ensure that the dependencies are installed correctly.
-
-## License
-
-Licensed under the [MIT license](https://github.com/frontio-ai/vite-template/blob/main/LICENSE).
+[Deployed on Railway](https://railway.com/)
