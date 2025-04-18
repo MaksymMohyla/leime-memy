@@ -13,7 +13,6 @@ export const MemeProvider: React.FC<Props> = ({ children }) => {
 
   useEffect(() => {
     checkMemesInStorage(setMemeList);
-    // localStorage.clear();
   }, []);
 
   return (
