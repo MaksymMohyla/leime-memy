@@ -44,4 +44,4 @@ Follow these steps to fork and run the project locally:
 
 ## DEMO
 
-[Deployed on Railway](https://railway.com/)
+[Deployed on Railway](https://leime-memy-production.up.railway.app/table)
