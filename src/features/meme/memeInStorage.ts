@@ -4,9 +4,9 @@ import { Dispatch } from 'react';
 const initialMemes: Meme[] = [
   {
     id: 1,
-    title: 'Doctors VS Programmers',
+    title: 'OOPS',
     imgURL:
-      'https://dev.ua/storage/images/47/33/99/14/derived/1b99672bdfa0b49831fd8eb2d10d8ec8.jpg',
+      'https://preview.redd.it/real-men-dont-do-backups-they-cry-v0-qlxhghrqjfve1.png?width=640&crop=smart&auto=webp&s=31df2aa6ac1f0856ba87373437d2dd48021f906c',
     likes: 50,
   },
   {
@@ -49,7 +49,7 @@ const initialMemes: Meme[] = [
     title:
       'Guys be like using only one good photo they had 15 years ago for the rest of their life',
     imgURL:
-      'hhttps://preview.redd.it/ageism-is-a-thing-particularly-in-it-v0-toijqmkh7ine1.png?width=320&crop=smart&auto=webp&s=8e337b0d256cc65d34f3dd4844e844dc3a52191f',
+      'https://preview.redd.it/ageism-is-a-thing-particularly-in-it-v0-toijqmkh7ine1.png?width=320&crop=smart&auto=webp&s=8e337b0d256cc65d34f3dd4844e844dc3a52191f',
     likes: 50,
   },
   {
